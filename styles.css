@@ -70,15 +70,6 @@ footer {
     justify-content: flex-end;
 }
 
-/* footer div i {
-    font-size: 30px;
-    color: white;
-    width: 50px;
-    height: 50px;
-    border: 1px solid red;
-    border-radius: 100px;
-} */
-
 i.fa {
     font-size: 1em;
     width: 2em;
@@ -88,4 +79,22 @@ i.fa {
     border: 1px solid white;
     border-radius: 1em;
     margin-left: 15px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 375px) {
+
+    main {
+        display: block;
+    }
+
+    .container {
+        background-image: url('/images/bg-mobile.svg');
+        width: 375px;
+    }
+
+    div img {
+        width: 300px;
+    }
 }
