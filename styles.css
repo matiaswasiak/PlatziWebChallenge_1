@@ -85,7 +85,14 @@ i.fa {
 
 @media screen and (max-width: 375px) {
 
+    .logo img {
+        width: 120px;
+        padding: 25px 37px 0 40px;
+    }
+    
     main {
+        padding: 35px 37px;
+        padding-bottom: 0px;
         display: block;
     }
 
@@ -94,7 +101,51 @@ i.fa {
         width: 375px;
     }
 
+    div h1 {
+        font-size: 23px;
+        margin-top: 55px;
+        margin-bottom: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+        text-align: center;
+    }
+
+    div p {
+        font-size: 15.5px;
+        text-align: center;
+    }
+
     div img {
         width: 300px;
+    }
+
+    .content-text {
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+
+    button {
+        font-size: 13px;
+        width: 200px;
+        height: 40px;
+        box-shadow: 1px 1px 5px #333333;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        padding-right: 0px;
+    }
+
+    .footer {
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+
+    i.fa {
+        font-size: .9em;
+        margin-left: 3.5px;
+        margin-right: 3.5px;
     }
 }
